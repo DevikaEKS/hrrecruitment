@@ -1,0 +1,42 @@
+.bannerbackground {
+    /* background-image: url("../../Asset/Group\ 270989967.png"); */
+    background-image: url("../../Asset/bannerpart.png");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 50px; 
+  }
+  
+  .paratext {
+    font-size: 60px;
+    color: white; 
+  }
+  
+  .bannerbutton{
+    font-size: 24px;
+    background-color:#2A014A ;
+    color: #ffff;
+    border: 1px solid white;
+   
+  }
+
+  @media (max-width:1200px){
+    .bannerbackground {
+      background-image: url("../../Asset/Phone\ Banner.png");
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      padding-left: 50px; 
+    }
+  }
+
+
+  @media (max-width:767px){
+    .bannerbackground{
+      background-image: url("../../Asset/320\ phone.png");
+    }
+  }

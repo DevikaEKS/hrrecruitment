@@ -1,0 +1,62 @@
+.bgdiscover{
+    background-image: url("../Asset/bgframe.png");
+    height: 100%;
+    background-size: cover;
+}
+.qimg{
+    height: 180px;
+    width: 180px;
+}
+.discovertext{
+    color: #2A014A;
+    margin: 0;
+    text-align: end;
+    font-weight: 500;
+}
+.teambox{
+    border-radius: 35px;
+    box-shadow: 1px 1px 5px 1px rgb(163, 103, 174);
+    width: 300px;
+}
+.dotbox{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px 1px rgb(163, 103, 174);
+}
+
+/* Keyframes for typing effect */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  0% { border-right: 2px solid transparent; }
+  100% { border-right: 2px solid #2A014A; }
+}
+
+.auto-typing {
+  display: inline-block;
+  margin-top: 10px;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide text that is not visible */
+  border-right: 2px solid #2A014A; /* Cursor effect */
+  font-size: 1.3rem; /* Adjust font size */
+  animation: 
+    typing 4s steps(40, end) infinite, /* Adjust timing and steps as needed */
+    blink 0.75s step-end infinite; /* Cursor blinking effect */
+}
+
+  .qimg {
+    /* width: 50px;  */
+    height: auto;
+  }
+
+  @media screen and (min-width:768px){
+    .discovertext{
+    font-size: 64px;
+    }
+  }
+ 
+  

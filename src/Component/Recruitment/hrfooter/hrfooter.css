@@ -1,0 +1,94 @@
+.brdfooter{
+    border-bottom: 1px solid  #DCC9FC;
+}
+
+.hrfooterbg{
+    background-color: #09091B;
+    color: #DCC9FC;
+}
+.brdfooter input{
+    border: 2px solid  #DCC9FC;
+    background-color: #09091B;
+}
+
+input{
+    border: 0 !important;
+    padding:2px 20px;
+}
+input:active{
+    border: 0px;
+}
+
+.iconpart {
+    display: flex;                 
+    justify-content: center;     
+    align-items: center;           
+    width: 40px;                  
+    height: 40px;                
+    border-radius: 50%;            
+    background-color: #DCC9FC;     
+    color: black;      
+  }
+.inpcurve{
+    color: #DCC9FC;
+}
+.brdboxes{
+    border: 1px solid #DCC9FC;
+    border-radius: 5px;
+    box-shadow: 1.2px 0.5px 5px #DCC9FC ;
+   
+}
+
+
+.inpcurve1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #DCC9FC;
+  }
+  
+  .iconpart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .centered-text {
+    margin: 0;
+    text-align: center;
+    width: 100%; /* Ensures the text spans the entire width of the container */
+  }
+
+  .inpstyle {
+    border: none;
+    outline: none;
+    flex: 1;
+    color: white;
+    padding: 15px;
+    margin-right: 10px;
+    background: linear-gradient(to right,#DCC9FC,black);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); /* For browsers that support the non-prefixed version */
+}
+
+.inpstyle::placeholder {
+    color: black;
+}
+
+.boxforcontact {
+    display: flex; 
+    align-items: center; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    width: 100%; 
+    max-width: 310px; 
+    background: linear-gradient(to right, grey, black); 
+}
+
+.imgmailed {
+    height: 100%; 
+    max-height: 40px; 
+    width: auto; 
+    object-fit: contain; 
+}

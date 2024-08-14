@@ -1,0 +1,69 @@
+/* .teambg{
+    background-color: aqua;
+    height: 100vh;
+}
+
+.listtext{ 
+    color: #FFCCFA;
+}
+
+.curvedpart{
+    border: 2px solid blueviolet !important;
+    border-top-left-radius: 40px !important;
+}
+
+.bordertext{
+    border-bottom: 1px solid blueviolet;
+    padding: 0px;
+}
+/* 
+.brdpop{
+    border: 2px solid blue;
+} */
+/* 
+@media screen and (min-width:765px){
+    .Teambg{
+      
+        height: 100vh !important;
+        background-size: cover !important;
+       
+    }   
+} */ 
+
+/* Ourteam.css */
+.teambg {
+    background-image: url("../../Asset/blur.jpg");
+    min-height: 100vh; /* Ensures the background color covers the full viewport height */
+    display: flex;
+    flex-direction: column;
+}
+
+.teambasicpart {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.teambox {
+    overflow: hidden; /* Ensures content does not overflow */
+}
+
+.teambody{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Adjusts the layout inside the card body */
+}
+
+.curvedpart {
+    border: 2px solid blueviolet !important;
+    border-top-left-radius: 40px !important;
+    height: 100%; /* Ensures the card fills the column's height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Keeps content spaced appropriately */
+}
+
+.text-start {
+    text-align: left !important; /* Ensure text alignment */
+}
+
